@@ -22,6 +22,20 @@
 #*.deployproj
 #
 
+*.xml
+*.gdb
+*.gbk
+*.fbk
+*.rar
+*.png
+*.DCU
+AdmissionData/
+DeleteData/
+DeleteResult/
+DeleteResultID/
+Dictionary/
+http/
+
 # Delphi compiler-generated binaries (safe to delete)
 *.exe
 *.dll

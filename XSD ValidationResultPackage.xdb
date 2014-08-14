@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xdb="http://www.borland.com/schemas/delphi/6.0/XMLDataBinding">
+	<xs:element name="ValidationResultPackage">
+		<xs:complexType>
+			<xs:annotation>
+        <xs:appinfo xdb:docElement="ValidationResultPackage"/>
+      </xs:annotation>
+      <xs:sequence>
+				<xs:element name="StatusCode" type="xs:unsignedByte">
+					<xs:annotation>
+						<xs:documentation>Код статуса проверки пакета</xs:documentation>  <xs:appinfo/>
+          </xs:annotation>
+				</xs:element>
+				<xs:element name="Message" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>Результат проверки пакета</xs:documentation>  <xs:appinfo/>
+          </xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
